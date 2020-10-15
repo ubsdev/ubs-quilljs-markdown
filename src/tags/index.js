@@ -1,5 +1,3 @@
-import Header from './header'
-import Blockquote from './blockquote'
 import Bold from './bold'
 import InlineCode from './inlinecode'
 import Link from './link'
@@ -11,8 +9,8 @@ class TagsOperators {
     this.quillJS = quillJS
     this.getOperatorsAll.bind(this)
     this.tags = [
-      new Header(this.quillJS).getAction(),
-      new Blockquote(this.quillJS).getAction(),
+      // new Header(this.quillJS).getAction(),
+      // new Blockquote(this.quillJS).getAction(),
       new Bold(this.quillJS).getAction(),
       new Link(this.quillJS).getAction(),
       new Codeblock(this.quillJS).getAction(),
